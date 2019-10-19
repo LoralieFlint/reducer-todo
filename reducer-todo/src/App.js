@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Todo List</h1>
+      <h1 className="title">Todo List</h1>
       <TodoForm addItem={addItem} clearCompleted={clearCompleted} />
       <TodoList todoList={state.todoList} toggleTask={toggleItems} />
     </div>

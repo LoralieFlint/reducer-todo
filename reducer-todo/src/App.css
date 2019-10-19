@@ -1,0 +1,31 @@
+.App {
+    display: block;
+    margin: auto;
+    height: 800px;
+    max-width: 500px;
+    background: linear-gradient(to right, #009fff, #ec2f4b);
+    text-align: center;
+}
+.completed-task {
+    color: lightgray;
+}
+.addItem {
+    padding: 10px;
+    margin-right: 5px;
+}
+.deleteItem {
+    padding: 10px;
+}
+.input {
+    padding: 4px;
+    margin-right: 5px;
+}
+.list {
+    margin-top: 15px;
+    font-size: 22px;
+}
+.title {
+    margin-top: 10px;
+    font-size: 45px;
+    font-weight: bold;
+}

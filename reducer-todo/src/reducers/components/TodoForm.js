@@ -16,14 +16,15 @@ const TodoForm = ({ addItem, clearCompleted }) => {
     
     return(
         <form onSubmit={handleSubmit}>
-            <input type='text' 
+            <input className="input"
+                   type='text' 
                    name='task'
-                   placeholder='task'
+                   placeholder='add todo'
                    value={task}
                    onChange={handleChange}
             />
-            <button type='submit'>Add new task</button>
-            <button onClick={clearCompleted}>Clear completed tasks</button>
+            <button type='submit' className="addItem">Add new task</button>
+            <button className="deleteItem" onClick={clearCompleted}>Clear completed tasks</button>
         </form>
     )
 }
